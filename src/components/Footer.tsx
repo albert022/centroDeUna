@@ -162,11 +162,9 @@ export default function Footer({ onOpenReviews }: FooterProps) {
             © {currentYear} {businessConfig.name}. Santo Domingo Este, República Dominicana.
           </p>
 
-          <div className="flex items-center gap-1 text-[11px] text-blush-300">
-            <span>Impulsado con</span>
-            <Heart className="w-3.5 h-3.5 text-rose-accent fill-rose-accent" />
-            <span>por</span>
-            <strong className="text-white font-semibold">QRMOON</strong>
+          <div className="flex items-center gap-1.5 text-xs text-blush-200">
+            <span>Desarrollado por</span>
+            <strong className="text-white font-bold tracking-wide">QRMOON</strong>
           </div>
         </div>
       </div>
